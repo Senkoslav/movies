@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="login-field">
+        <div class="login-background">
+            <div class="login-title">
+                <span>Регистрация</span>
+            </div>
+            <div class="login-form">
+                <form id="login-form" action="/login"method="post">
+                    <div class="field username-field">
+                        <input type="text" id="username" name="username" placeholder="ФИО">
+                    </div>
+                    <div class="field password-field">
+                        <input type="password" id="password" name="password" placeholder="Пароль">
+                    </div>
+                    <div class="field password-field">
+                    <input type="password" id="password" name="password" placeholder="Подтверди Пароль">
+                    </div>
+                    <div class="field button-field">
+                        <button class="button button-login" type="submit">Отправить</button>
+                        <button class="button button-register" type="submit"><a href="login.html">Войти</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <span class="square square-tl"></span>
+    <span class="square square-tr"></span>
+    <span class="square square-bl"></span>
+    <span class="square square-br"></span>
+    <span class="star star1"></span>
+    <span class="star star2"></span>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
